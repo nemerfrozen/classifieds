@@ -1,0 +1,18 @@
+2024-06-11 20:38:02 - Error: Could not load model Opencart\Catalog\Model\Product\Product! in /home/u239700068/domains/mercabarat.com/public_html/system/engine/loader.php on line 177
+2024-06-11 20:38:04 - Error: Could not load model Opencart\Catalog\Model\Product\Product! in /home/u239700068/domains/mercabarat.com/public_html/system/engine/loader.php on line 177
+2024-06-11 20:38:15 - Error: Could not load model Opencart\Catalog\Model\Product\Product! in /home/u239700068/domains/mercabarat.com/public_html/system/engine/loader.php on line 177
+2024-06-11 20:38:16 - Error: Could not load model Opencart\Catalog\Model\Product\Product! in /home/u239700068/domains/mercabarat.com/public_html/system/engine/loader.php on line 177
+2024-06-11 20:55:09 - 0:  Error: RCPT TO not accepted from server!
+File: /home/u239700068/domains/mercabarat.com/public_html/system/library/mail/smtp.php
+Line: 223
+
+2024-06-11 20:55:18 - 0:  Error: RCPT TO not accepted from server!
+File: /home/u239700068/domains/mercabarat.com/public_html/system/library/mail/smtp.php
+Line: 223
+
+2024-06-12 05:06:58 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
+2024-06-12 05:06:58 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
+2024-06-12 05:07:31 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u239700068_rZ1h8'@'190.90.102.56' (using password: YES) in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
+2024-06-12 05:07:31 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
+2024-06-12 05:09:40 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
+2024-06-12 05:09:40 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
