@@ -16,3 +16,20 @@ Line: 223
 2024-06-12 05:07:31 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
 2024-06-12 05:09:40 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
 2024-06-12 05:09:40 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
+2024-06-12 00:39:12 - PHP Warning:  Undefined array key "user_token" in C:\xampp\htdocs\opencart\catalog\controller\account\register.php on line 109
+2024-06-12 01:03:51 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\opencart\catalog\model\user\user.php on line 16
+2024-06-12 01:06:43 - Error: Could not call registry key model_tool_image! in C:\xampp\htdocs\opencart\system\engine\controller.php on line 39
+2024-06-12 01:08:05 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\opencart\catalog\controller\account\register.php on line 107
+2024-06-12 01:08:48 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\opencart\catalog\controller\account\register.php on line 107
+2024-06-12 01:28:36 - PHP Warning: Undefined array key "user_id"
+File: C:\xampp\htdocs\opencart\qma1rloxtrjoarbc\model\catalog\product.php
+Line: 15
+
+2024-06-12 01:29:01 - PHP Warning: Undefined array key "user_id"
+File: C:\xampp\htdocs\opencart\qma1rloxtrjoarbc\model\catalog\product.php
+Line: 15
+
+2024-06-12 01:29:40 - PHP Warning: Undefined array key "user_id"
+File: C:\xampp\htdocs\opencart\qma1rloxtrjoarbc\model\catalog\product.php
+Line: 15
+

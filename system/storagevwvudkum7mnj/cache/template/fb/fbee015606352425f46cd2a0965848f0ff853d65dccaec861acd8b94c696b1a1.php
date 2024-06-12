@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* qma1rloxtrjoarbc/view/template/user/user_form.twig */
-class __TwigTemplate_e610de5da870b4246c06bd1514da0c4f3aebcc9b7c2868c9705bbb9bbc2417ab extends Template
+/* catalog/view/template/account/register.twig */
+class __TwigTemplate_0b02f473f5e1b4a97e13c795690548828e8615d5a005bc38d4967443da541f71 extends Template
 {
     private $source;
     private $macros = [];
@@ -180,9 +180,35 @@ class __TwigTemplate_e610de5da870b4246c06bd1514da0c4f3aebcc9b7c2868c9705bbb9bbc2
                     <div id=\"error-email\" class=\"invalid-feedback\"></div>
                   </div>
                 </div>
-                ";
-        // line 84
-        echo "              </fieldset>
+                <div class=\"row mb-3\">
+                  <label for=\"input-image\" class=\"col-sm-2 col-form-label\">";
+        // line 73
+        echo ($context["entry_image"] ?? null);
+        echo "</label>
+                  <div class=\"col-sm-10\">
+                    <div class=\"card image\">
+                      <img width=\"50\" src=\"";
+        // line 76
+        echo ($context["thumb"] ?? null);
+        echo "\" alt=\"\" title=\"\" id=\"thumb-image\" data-oc-placeholder=\"";
+        echo ($context["placeholder"] ?? null);
+        echo "\" class=\"card-img-top\"/> <input type=\"hidden\" name=\"image\" value=\"";
+        echo ($context["image"] ?? null);
+        echo "\" id=\"input-image\"/>
+                      <div class=\"card-body\">
+                        <button type=\"button\" data-oc-toggle=\"image\" data-oc-target=\"#input-image\" data-oc-thumb=\"#thumb-image\" class=\"btn btn-primary btn-sm btn-block\"><i class=\"fa-solid fa-pencil\"></i> ";
+        // line 78
+        echo ($context["button_edit"] ?? null);
+        echo "</button>
+                        <button type=\"button\" data-oc-toggle=\"clear\" data-oc-target=\"#input-image\" data-oc-thumb=\"#thumb-image\" class=\"btn btn-warning btn-sm btn-block\"><i class=\"fa-regular fa-trash-can\"></i> ";
+        // line 79
+        echo ($context["button_clear"] ?? null);
+        echo "</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
               <fieldset>
                 <legend>";
         // line 86
@@ -231,7 +257,7 @@ class __TwigTemplate_e610de5da870b4246c06bd1514da0c4f3aebcc9b7c2868c9705bbb9bbc2
         echo "</label>
                   <div class=\"col-sm-10\">
                     <div class=\"form-check form-switch form-switch-lg\">
-                      <input type=\"hidden\" name=\"status\" value=\"1\"/>
+                      <input type=\"hidden\" name=\"status\" value=\"0\"/>
                       <input type=\"checkbox\" name=\"status\" value=\"1\" id=\"input-status\" class=\"form-check-input\"";
         // line 109
         if (($context["status"] ?? null)) {
@@ -345,7 +371,7 @@ class __TwigTemplate_e610de5da870b4246c06bd1514da0c4f3aebcc9b7c2868c9705bbb9bbc2
 
     public function getTemplateName()
     {
-        return "qma1rloxtrjoarbc/view/template/user/user_form.twig";
+        return "catalog/view/template/account/register.twig";
     }
 
     public function isTraitable()
@@ -355,11 +381,11 @@ class __TwigTemplate_e610de5da870b4246c06bd1514da0c4f3aebcc9b7c2868c9705bbb9bbc2
 
     public function getDebugInfo()
     {
-        return array (  342 => 186,  321 => 170,  294 => 146,  270 => 125,  266 => 124,  258 => 119,  254 => 118,  247 => 114,  237 => 109,  230 => 105,  225 => 103,  214 => 97,  209 => 95,  199 => 90,  194 => 88,  189 => 86,  185 => 84,  176 => 68,  171 => 66,  161 => 61,  156 => 59,  146 => 54,  141 => 52,  133 => 46,  128 => 39,  118 => 34,  113 => 32,  108 => 30,  100 => 25,  96 => 24,  92 => 23,  87 => 21,  82 => 19,  75 => 14,  64 => 12,  60 => 11,  55 => 9,  49 => 8,  45 => 7,  37 => 2,);
+        return array (  368 => 186,  347 => 170,  320 => 146,  296 => 125,  292 => 124,  284 => 119,  280 => 118,  273 => 114,  263 => 109,  256 => 105,  251 => 103,  240 => 97,  235 => 95,  225 => 90,  220 => 88,  215 => 86,  205 => 79,  201 => 78,  192 => 76,  186 => 73,  176 => 68,  171 => 66,  161 => 61,  156 => 59,  146 => 54,  141 => 52,  133 => 46,  128 => 39,  118 => 34,  113 => 32,  108 => 30,  100 => 25,  96 => 24,  92 => 23,  87 => 21,  82 => 19,  75 => 14,  64 => 12,  60 => 11,  55 => 9,  49 => 8,  45 => 7,  37 => 2,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "qma1rloxtrjoarbc/view/template/user/user_form.twig", "C:\\xampp\\htdocs\\opencart\\qma1rloxtrjoarbc\\view\\template\\user\\user_form.twig");
+        return new Source("", "catalog/view/template/account/register.twig", "C:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\account\\register.twig");
     }
 }
