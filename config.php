@@ -22,16 +22,18 @@ define('DIR_SESSION', DIR_STORAGE . 'session/');
 define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // load env
-$env = new \Dotenv\Dotenv('./');
-$env->load();
+//$env = parse_ini_file('.env');
+//$env->load();
 
-$driver = getenv('DB_DRIVER');
-$hostname = getenv('DB_HOSTNAME');
-$username = getenv('DB_USERNAME');
-$password = getenv('DB_PASSWORD');
-$database = getenv('DB_DATABASE');
-$prefix = getenv('DB_PREFIX');
-$port = getenv('DB_PORT');
+$driver = $env['DB_DRIVER'];
+$hostname = $env['DB_HOSTNAME'];
+$username = $env['DB_USERNAME'];
+$password = $env['DB_PASSWORD'];
+$database = $env['DB_DATABASE'];
+$prefix = $env['DB_PREFIX'];
+$port = $env['DB_PORT'];
+
+
 
 // DB
 define('DB_DRIVER', $driver);

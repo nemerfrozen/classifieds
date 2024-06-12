@@ -33,3 +33,14 @@ Line: 15
 File: C:\xampp\htdocs\opencart\qma1rloxtrjoarbc\model\catalog\product.php
 Line: 15
 
+2024-06-12 14:38:59 - Error: Could not load database adaptor !: in C:\xampp\htdocs\opencart\system\library\db.php on line 36
+2024-06-12 14:39:27 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
+2024-06-12 14:39:27 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
+2024-06-12 14:40:22 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
+2024-06-12 14:40:22 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
+2024-06-12 14:40:34 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
+2024-06-12 14:40:34 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
+2024-06-12 14:41:00 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
+2024-06-12 14:41:00 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
+2024-06-12 14:41:21 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
+2024-06-12 14:41:21 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
