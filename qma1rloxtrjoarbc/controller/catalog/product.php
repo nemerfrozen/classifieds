@@ -1048,7 +1048,7 @@ class Product extends \Opencart\System\Engine\Controller {
 		$data['footer'] = $this->load->controller('common/footer');
 
 		//print session
-		print_r($this->session->data);
+		//print_r($this->session->data);
 
 		$this->response->setOutput($this->load->view('catalog/product_form', $data));
 	}

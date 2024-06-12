@@ -21,11 +21,23 @@ define('DIR_LOGS', DIR_STORAGE . 'logs/');
 define('DIR_SESSION', DIR_STORAGE . 'session/');
 define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
+// load env
+$env = new \Dotenv\Dotenv('./');
+$env->load();
+
+$driver = getenv('DB_DRIVER');
+$hostname = getenv('DB_HOSTNAME');
+$username = getenv('DB_USERNAME');
+$password = getenv('DB_PASSWORD');
+$database = getenv('DB_DATABASE');
+$prefix = getenv('DB_PREFIX');
+$port = getenv('DB_PORT');
+
 // DB
-define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', '89.117.7.160');
-define('DB_USERNAME', 'u239700068_rZ1h8');
-define('DB_PASSWORD', '7arA32V4gp');
-define('DB_DATABASE', 'u239700068_NFvRs');
-define('DB_PREFIX', 'pvem_');
-define('DB_PORT', '3306');
+define('DB_DRIVER', $driver);
+define('DB_HOSTNAME', $hostname);
+define('DB_USERNAME', $username);
+define('DB_PASSWORD', $password);
+define('DB_DATABASE', $database);
+define('DB_PREFIX', $prefix);
+define('DB_PORT', $port);
