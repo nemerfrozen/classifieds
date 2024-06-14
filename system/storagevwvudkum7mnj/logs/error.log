@@ -44,3 +44,52 @@ Line: 15
 2024-06-12 14:41:00 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
 2024-06-12 14:41:21 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 29
 2024-06-12 14:41:21 - mysqli object is already closed: in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 32
+2024-06-12 19:46:04 - Error: Could not load database adaptor !: in C:\xampp\htdocs\classifieds\system\library\db.php on line 36
+2024-06-12 14:58:01 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-12 14:58:01 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-12 20:29:35 - PHP Warning: Undefined array key "image"
+File: C:\xampp\htdocs\classifieds\qma1rloxtrjoarbc\model\user\user.php
+Line: 27
+
+2024-06-12 20:33:06 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-12 20:33:06 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 20:59:10 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 20:59:10 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:01:22 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:01:22 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:02:09 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:02:09 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:02:10 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:02:10 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:07:01 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:07:01 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:07:49 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:07:49 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:09:03 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:09:03 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:11:10 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:11:10 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:13:47 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:13:47 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:19:00 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:19:00 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:19:21 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:19:21 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:21:55 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:21:55 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:23:21 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:23:21 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:24:08 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:24:08 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:27:47 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:27:47 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:30:06 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:30:06 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:34:01 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:34:01 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:34:34 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:34:34 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:37:15 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:37:15 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:38:21 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107
+2024-06-13 21:38:21 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\classifieds\catalog\controller\account\register.php on line 107

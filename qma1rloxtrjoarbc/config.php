@@ -3,10 +3,10 @@
 define('APPLICATION', 'Admin');
 
 // HTTP
-define('HTTP_SERVER', 'http://localhost:8080/opencart/qma1rloxtrjoarbc/');
-define('HTTP_CATALOG', 'http://localhost:8080/opencart/');
+define('HTTP_SERVER', 'http://localhost/classifieds/qma1rloxtrjoarbc/');
+define('HTTP_CATALOG', 'http://localhost:8080/classifieds/');
 // DIR
-define('DIR_OPENCART', 'C:/xampp/htdocs/opencart/');
+define('DIR_OPENCART', 'C:/xampp/htdocs/classifieds/');
 define('DIR_APPLICATION', DIR_OPENCART . 'qma1rloxtrjoarbc/');
 define('DIR_SYSTEM', DIR_OPENCART . 'system/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');

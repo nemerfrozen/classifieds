@@ -3,10 +3,10 @@
 define('APPLICATION', 'Catalog');
 
 // HTTP
-define('HTTP_SERVER', 'http://localhost:8080/opencart/');
+define('HTTP_SERVER', 'http://localhost/classifieds/');
 
 // DIR
-define('DIR_OPENCART', 'C:/xampp/htdocs/opencart/');
+define('DIR_OPENCART', 'C:/xampp/htdocs/classifieds/');
 define('DIR_APPLICATION', DIR_OPENCART . 'catalog/');
 define('DIR_SYSTEM', DIR_OPENCART . 'system/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
@@ -21,25 +21,13 @@ define('DIR_LOGS', DIR_STORAGE . 'logs/');
 define('DIR_SESSION', DIR_STORAGE . 'session/');
 define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
-// load env
-//$env = parse_ini_file('.env');
-//$env->load();
-
-$driver = $env['DB_DRIVER'];
-$hostname = $env['DB_HOSTNAME'];
-$username = $env['DB_USERNAME'];
-$password = $env['DB_PASSWORD'];
-$database = $env['DB_DATABASE'];
-$prefix = $env['DB_PREFIX'];
-$port = $env['DB_PORT'];
-
 
 
 // DB
-define('DB_DRIVER', $driver);
-define('DB_HOSTNAME', $hostname);
-define('DB_USERNAME', $username);
-define('DB_PASSWORD', $password);
-define('DB_DATABASE', $database);
-define('DB_PREFIX', $prefix);
-define('DB_PORT', $port);
+define('DB_DRIVER', 'mysqli');
+define('DB_HOSTNAME', '89.117.7.154');
+define('DB_USERNAME', 'u239700068_rZ1h8');
+define('DB_PASSWORD', '7arA32V4gp');
+define('DB_DATABASE', 'u239700068_NFvRs');
+define('DB_PREFIX', 'pvem_');
+define('DB_PORT', '3306');
